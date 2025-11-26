@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard — FHMC</title><link rel="stylesheet" href="css/style.css"></head><body>
+<header class="site-header"><div class="brand">FREE.HOSTING.MC</div><nav><a href="index.html">Home</a><a id="btn-logout" href="#">Logout</a></nav></header>
+<main class="wrap">
+<section class="card"><h2>Create Server</h2>
+<input id="srv_name" placeholder="Server name" />
+<select id="srv_version"></select>
+<select id="srv_soft"><option value="paper">Paper</option><option value="purpur">Purpur</option><option value="fabric">Fabric</option></select>
+<input id="srv_plugins" placeholder="Plugins (comma URLs)" />
+<button id="createBtn" class="btn">Generate Server</button>
+<pre id="output"></pre>
+</section>
+<section class="card"><h2>Files</h2><button id="refreshFiles">Refresh</button><div id="files"></div></section>
+</main>
+<script src="js/app.js"></script></body></html>

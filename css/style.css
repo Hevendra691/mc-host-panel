@@ -1,0 +1,10 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#071214;color:#eaf7ef;margin:0}
+.site-header{display:flex;justify-content:space-between;padding:12px 20px;background:#081215}
+.brand{font-weight:800}
+.hero{padding:60px;text-align:center}
+.btn{background:#39d353;color:#04260a;padding:10px 14px;border-radius:8px;text-decoration:none;display:inline-block}
+.wrap{max-width:900px;margin:20px auto;padding:0 18px}
+.card{background:#0f1516;padding:14px;border-radius:10px;margin-bottom:12px}
+input,select{width:100%;padding:8px;margin-top:8px;border-radius:6px;border:none;background:#0b0f10;color:#eaf7ef}
+pre{background:#071017;padding:8px;border-radius:6px;overflow:auto}
+footer{padding:18px;text-align:center;color:#98a0a4}
